@@ -16,6 +16,45 @@ npm create hyas@latest -- --template doks
 
 Looking for help? Start with our [Getting Started](https://getdoks.org/docs/start-here/getting-started/) guide.
 
+
+### Install this project
+
+clone this project to your disk:
+
+```bash
+git clone https://github.com/siyehua/doks
+```
+
+install package:
+
+```bash
+npm install
+```
+
+run
+
+```bash
+npm run dev
+```
+
+## Add or Change Content
+
+### Main Page
+
+Edit style and css `layouts` to see this page change.
+
+Edit content `content/_index.md` to see this page change.
+
+### Blog
+Add or Edit Markdown files to `content` to create new pages.
+
+### Config
+Edit your config in `config/_default/hyas/doks.toml`
+
+# Vercel
+
+todo
+
 ## Documentation
 
 Visit our [official documentation](https://getdoks.org/).

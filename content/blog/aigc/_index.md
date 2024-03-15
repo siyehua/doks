@@ -8,10 +8,10 @@ draft: false
 weight: 810
 toc: true
 seo:
-  title: "AIGC Developer 教程" # custom title (optional)
-  description: "一个普通开发者入门 AIGC 开发者的入门教程" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+title: "AIGC Developer 教程" # custom title (optional)
+description: "一个普通开发者入门 AIGC 开发者的入门教程" # custom description (recommended)
+canonical: "" # custom canonical URL (optional)
+noindex: false # false (default) or true
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.
