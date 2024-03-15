@@ -20,6 +20,31 @@ Looking for help? Start with our [Getting Started](https://getdoks.org/docs/star
 
 Visit our [official documentation](https://getdoks.org/).
 
+
+## index.md
+### title
+```shell
+---
+title: "Example Post4"
+description: "Just an example post."
+summary: "You can use blog posts for announcing product updates and features."
+date: 2023-09-07T16:27:22+02:00 #TZ='Asia/Shanghai' date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/\([+-][0-9][0-9]\)\([0-9][0-9]\)/\1:\2/'
+lastmod: 2023-09-07T16:27:22+02:00 #TZ='Asia/Shanghai' date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/\([+-][0-9][0-9]\)\([0-9][0-9]\)/\1:\2/'
+draft: false
+weight: 49 # The smaller the weight on the page, the more forward the page will be
+categories: []
+tags: []
+contributors: []
+pinned: false
+homepage: false
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
+```
+
 ## Support
 
 Having trouble? Get help in the official [Doks Discussions](https://github.com/h-enk/doks/discussions).
