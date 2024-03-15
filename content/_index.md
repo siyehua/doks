@@ -1,13 +1,14 @@
 ---
-title : "Welcome to Doks"
-description: ""
-lead: "Congrats on setting up a new Doks project!"
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+title : "Welcome to siyehua Blobs"
+description: "⚒️ Java / Kotlin / Dart / Rust / C / C++ / GitHub Actions / Python / Swift / JavaScript / TypeScript / CSS / HTML"
+lead: "🌱 AIGC / AI Draw / Stable Diffusion / Android / Flutter / Web"
+date: 2024-03-14T16:33:54+02:00
+lastmod: 2024-03-14T16:33:54+02:00
 draft: false
 seo:
- title: "Welcome to Doks" # custom title (optional)
- description: "" # custom description (recommended)
+ title: "Stable Diffusion / AIGC / AI Draw" # custom title (optional)
+ description: "AIGC Developer" # custom description (recommended)
  canonical: "" # custom canonical URL (optional)
  noindex: false # false (default) or true
 ---
+
