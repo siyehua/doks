@@ -1,11 +1,11 @@
 ---
-title: "Blog"
-description: "欢迎来到我的博客空间"
-summary: "一个 AIGC 开发者，分享如何入门 AIGC 开发"
-date: 2024-03-17T16:27:22+02:00
-lastmod: 2024-03-17T16:27:22+02:00
+title: "AI 技术资讯"
+description: "这里栏目写一些常用的 AI 相关技术"
+summary: "这些技术一般是新出来的，能解决 AIGC 技术在落地的时候的一些痛点问题"
+date: 2023-09-07T16:27:22+02:00
+lastmod: 2023-09-07T16:27:22+02:00
 draft: false
-weight: 1000
+weight: 200
 categories: []
 tags: []
 contributors: []

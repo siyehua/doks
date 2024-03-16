@@ -1,21 +1,21 @@
 ---
-title: "标题"
+title: "GPU云服务器安装StableDiffusion"
 description: "GPU,AI,AI绘画,服务器"
-summary: "描述"
-date: 2024-03-16T16:43:59+08:00
-lastmod: 2024-03-16T16:43:59+08:00
+summary: "这篇文章讲解一下使用原始的 GPU 服务器应该如何搭建 Stable Diffusion"
+date: 2024-03-15T19:07:37+08:00
+lastmod: 2024-03-16T19:07:37+08:00
 draft: false
-weight: 48
+weight: 3
 categories: []
 tags: []
 contributors: []
 pinned: false
 homepage: false
 seo:
-title: "" # custom title (optional)
-description: "" # custom description (recommended)
-canonical: "" # custom canonical URL (optional)
-noindex: false # false (default) or true
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 
 # 准备服务器
@@ -31,10 +31,10 @@ noindex: false # false (default) or true
 
 # 购买
 1. 点击链接后，选择 GPU，一般选择 T4 ,有 16G 的 GPU，足够了：
-   ![购买 GPU 服务器](/images/create_ai_gpu/cerate_01.png)
+   ![购买 GPU 服务器](cerate_01.png)
 
 2. 购买的时候选择系统与驱动：
-   ![选择系统与驱动](/images/create_ai_gpu/create_02.png)
+   ![选择系统与驱动](create_02.png)
 
 镜像：一般在腾讯云就选 TencentOS，跟 CentOS 差不多，但是 CentOS 不维护了，而 TencentOS 还有一些 Tecent 专有的组件。
 GPU 驱动： 这里建议自动安装 GPU 驱动，手动安装 GPU 驱动特别麻烦，一般选最新的驱动，cuda 即可。关于 GPU 驱动与 Cuda 的关系，可以看这里 [GPU 驱动, CUDA, Pytroch 之间关系](./gpu_cuda_pytroch.md)
@@ -204,7 +204,7 @@ sudo yum install mesa-libGL
 ./webui.sh
 ```
 
-![运行结果](/images/create_ai_gpu/lanuch_03.png)
+![运行结果](lanuch_03.png)
 
 一般运行后会有一个本地地址，这个本地地址通过浏览器就能直接访问，但是但是，我们这个是服务器，是没有浏览器的应该如何访问？
 
@@ -245,7 +245,7 @@ conda activate py310
 ## 启动参数详解
 `--xformers`： xformers 优化，出图效果更快更好<br>
 `--share`: 分享到 `gradio.live`, 执行这个参数生成一个外链，这个外链的有效期是 72 小时，无论是谁拿到这个外链都能访问，有一定的安全隐患：<br>
-![运行结果](/images/create_ai_gpu/launch_04.png)<br>
+![运行结果](launch_04.png)<br>
 前面说了，服务器是没有浏览器的，可以通过这个方法访问。<br>
 `--enable-insecure-extension-access`: 这个意思是允许扩展执行脚本，有些扩展需要执行脚本的，一般这个功能是禁用的，如果有些插件无法安装，就考虑将运行它<br>
 `--listen`: 内网穿透，比如你的服务器地址是：`8.123.34.108`, 执行之后，你就能通过：`http://8.123.34.108:7860` 来访问 `webui`<br>
@@ -255,5 +255,5 @@ conda activate py310
 
 一切弄好之后，电脑就能愉快的访问了：
 
-![运行结果](/images/create_ai_gpu/result_05.png)
+![运行结果](result_05.png)
 
