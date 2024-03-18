@@ -33,8 +33,17 @@ npm install
 
 run
 
-```bash
+```~~bash~~
 npm run dev
+```
+
+the `npm` run will have cache, it will let your website isn't the newest version!!<br>
+
+
+if you want to run without cache, use this command:<br>
+
+```shell
+./build_no_cache.sh
 ```
 
 ## Add or Change Content
@@ -58,6 +67,14 @@ todo
 ## Documentation
 
 Visit our [official documentation](https://getdoks.org/).
+
+## add time
+
+Note: If the `date` or `lastmod`  is larger than the current time, it will be not show in the website.
+
+```shell
+TZ='Asia/Shanghai' date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/\([+-][0-9][0-9]\)\([0-9][0-9]\)/\1:\2/' |  pbcopy
+```
 
 
 ## index.md
