@@ -5,7 +5,7 @@ summary: "限于资源，很多人没法直接使用 Stable Diffusion，这里�
 date: 2024-03-15T19:07:37+08:00
 lastmod: 2024-03-15T19:07:37+08:00
 draft: false
-weight: 1
+weight: 3
 categories: []
 tags: []
 contributors: []

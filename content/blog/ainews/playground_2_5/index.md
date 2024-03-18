@@ -5,17 +5,17 @@ summary: "美学大模型Playground 评测"
 date: 2024-03-18T16:29:23+08:00
 lastmod: 2024-03-18T16:29:23+08:00
 draft: false
-weight: 200
+weight: 400
 categories: []
 tags: []
 contributors: []
 pinned: false
 homepage: false
 seo:
-title: "" # custom title (optional)
-description: "" # custom description (recommended)
-canonical: "" # custom canonical URL (optional)
-noindex: false # false (default) or true
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
 
 ![HYUUGfU6SOCHsvyeISQ5Y.png](HYUUGfU6SOCHsvyeISQ5Y.png)
@@ -52,7 +52,7 @@ noindex: false # false (default) or true
 
 关于 GPU 服务器的申请与使用请看:
 
-[ GPU 服务器申请与安装](/blog/aigc/use_gpu)
+[ GPU 服务器申请与安装](/blog/gpu云服务器安装stablediffusion)
 
 ```shell
 pip install git+https://github.com/huggingface/diffusers.git

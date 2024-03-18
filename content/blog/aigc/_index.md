@@ -12,11 +12,6 @@ contributors: []
 pinned: false
 homepage: true
 cover: "cover.png"
-seo:
-title: "" # custom title (optional)
-description: "" # custom description (recommended)
-canonical: "" # custom canonical URL (optional)
-noindex: false # false (default) or true
 ---
 
 这是一个用来帮助普通开发者如何入门到 AIGC Developer 的系列教程
