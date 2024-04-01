@@ -182,7 +182,10 @@ proot-distro login debian
 ollama run gemma:2b
 ```
 
-其中 gemma 是谷歌开源的的一个大模型，2b 是模型的参数，由于手机性能较差，我选择了参数较小的模型。
+其中 gemma 是谷歌开源的的一个大模型，2b 是模型的参数，由于手机性能较差，我选择了参数较小的模型。<br>
+
+ollama 能跑的大模型有很多，详情请看：[ollama](https://ollama.com/library)<br>
+
 
 ![安装llma2](下载%20llma2.png)<br>
 
