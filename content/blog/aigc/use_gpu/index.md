@@ -26,8 +26,7 @@ seo:
 [阿里云 GPU 服务器](https://www.aliyun.com/product/ecs/gpu?spm=5176.28989169.J_4VYgf18xNlTAyFFbOuOQe.150.55a31db8jHIeww&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@70261._.ID_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@70261-RL_GPU-LOC_menu~UND~product-OR_ser-V_3-P0_0)
 
 
-腾讯云跟阿里云差不多，还有一些现成的镜像就不再这里说明，可以移步到这里: [快速体验 Stable Diffusion 方式](./ues_sd_online.md).
-<br>这里以腾讯云购买来讲解
+腾讯云跟阿里云差不多，还有一些现成的镜像就不再这里说明, 这里以腾讯云购买来讲解.
 
 # 购买
 1. 点击链接后，选择 GPU，一般选择 T4 ,有 16G 的 GPU，足够了：
@@ -37,7 +36,7 @@ seo:
    ![选择系统与驱动](create_02.png)
 
 镜像：一般在腾讯云就选 TencentOS，跟 CentOS 差不多，但是 CentOS 不维护了，而 TencentOS 还有一些 Tecent 专有的组件。
-GPU 驱动： 这里建议自动安装 GPU 驱动，手动安装 GPU 驱动特别麻烦，一般选最新的驱动，cuda 即可。关于 GPU 驱动与 Cuda 的关系，可以看这里 [GPU 驱动, CUDA, Pytroch 之间关系](./gpu_cuda_pytroch.md)
+GPU 驱动： 这里建议自动安装 GPU 驱动，手动安装 GPU 驱动特别麻烦，一般选最新的驱动，cuda 即可。关于 GPU 驱动与 Cuda 的关系，可以看这里 [GPU 驱动, CUDA, Pytroch 之间关系](/一文读懂-ai-项目环境基础知识)
 
 
 # 初始化账号
