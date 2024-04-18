@@ -36,7 +36,7 @@ seo:
    ![选择系统与驱动](create_02.png)
 
 镜像：一般在腾讯云就选 TencentOS，跟 CentOS 差不多，但是 CentOS 不维护了，而 TencentOS 还有一些 Tecent 专有的组件。
-GPU 驱动： 这里建议自动安装 GPU 驱动，手动安装 GPU 驱动特别麻烦，一般选最新的驱动，cuda 即可。关于 GPU 驱动与 Cuda 的关系，可以看这里 [GPU 驱动, CUDA, Pytroch 之间关系](/一文读懂-ai-项目环境基础知识)
+GPU 驱动： 这里建议自动安装 GPU 驱动，手动安装 GPU 驱动特别麻烦，一般选最新的驱动，cuda 即可。关于 GPU 驱动与 Cuda 的关系，可以看这里 [GPU 驱动, CUDA, Pytroch 之间关系](/blog/一文读懂-ai-项目环境基础知识)
 
 
 # 初始化账号
