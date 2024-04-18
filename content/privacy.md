@@ -1,5 +1,5 @@
 ---
-title: "联系我"
+title : "Welcome to siyehua Blobs"
 description: ""
 summary: ""
 date: 2024-04-18T18:17:52+08:00
@@ -15,4 +15,4 @@ seo:
 
 扫码加群，拉你进 AIGC Developer 交流群
 
-![code](privacy_code.png)
+![qrcode](privacy_code.png)
