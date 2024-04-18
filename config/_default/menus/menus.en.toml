@@ -75,7 +75,7 @@
 #   weight = 30
 
 [[footer]]
-  name = "Privacy Policy"
+  name = "联系我交流"
   url = "/privacy/"
   weight = 10
 
