@@ -24,6 +24,7 @@
       "head",
       "header",
       "html",
+      "iframe",
       "img",
       "input",
       "kbd",
@@ -56,8 +57,7 @@
       "time",
       "title",
       "tr",
-      "ul",
-      "video"
+      "ul"
     ],
     "classes": [
       "DocSearch-Label",
@@ -209,6 +209,9 @@
       "privacy",
       "px-0",
       "query-no-results",
+      "ratio",
+      "ratio-16x9",
+      "ratio-7x4",
       "reading-time",
       "rounded-pill",
       "rounded-top-1",
