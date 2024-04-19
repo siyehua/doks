@@ -1,21 +1,16 @@
 ---
-title: "基于 LLM 构建知识库 - MaxKB"
+title: "基于LLM构建知识库"
 description: "可本地部署的大模型问答系统"
-summary: "这个问答系统可以做客服，也可以做成 wiki，搜索，等等。"
-date: 2024-03-15T19:07:37+08:00
-lastmod: 2024-04-08T19:48:22+08:00
+summary: "基于LLM构建知识库"
+date: 2024-04-18T15:46:04+08:00
+lastmod: 2024-04-18T15:46:04+08:00
 draft: false
-weight: 399
+weight: 398
 categories: []
 tags: ["LLM", "问答系统", "知识库"]
 contributors: []
 pinned: false
 homepage: false
-seo:
-title: "" # custom title (optional)
-description: "" # custom description (recommended)
-canonical: "" # custom canonical URL (optional)
-noindex: false # false (default) or true
 ---
 
 这个项目主要有以下几个应用场景：
