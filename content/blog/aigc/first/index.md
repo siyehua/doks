@@ -36,8 +36,8 @@ seo:
 本博客中，您将了解到：
 
 * AI 现状以及 AI 的种类
-* AIGC Developer 应该掌握什么技能
 * AI 认知入门
+* AIGC Developer 应该掌握什么技能
 * AIGC Developer 发展方向与入门路线
 
 ## 学习目标
@@ -62,8 +62,24 @@ seo:
 
 也就是说，`AI` 到目前为止，暂时还没有很好的落地，或者落地的成本很高，它只能走某个领域有一定的效率提升，`AI` 发展到后面，可能下面几个方向：
 
-## AI, AIGC, AGI, GPT, ChatGPT, NLP，LLM 之间有什么关系？
+## AI, AIGC, AGI, GPT, ChatGPT, NLP，LLM, LangChain, Ollama 之间有什么关系？
 
+![img.png](img.png)
+
+AI（人工智能）是一个广泛的领域，它涵盖了多种技术和方法，旨在创建能够执行通常需要人类智能的任务的系统。AI包括机器学习、自然语言处理（NLP）、计算机视觉、机器人技术等多个子领域。
+
+1. **NLP**（Natural Language Processing）: 是AI的一个子领域，专注于使计算机能够理解、解释和生成人类语言。GPT和ChatGPT都是NLP领域的技术成果。
+2. **LLM**（Large Language Model）: 是指包含数亿甚至更多参数的语言模型，它们在大量文本数据上进行训练，以理解和生成自然语言。GPT系列模型就是LLM的代表。
+3. **GPT**（Generative Pre-trained Transformer）: 是一种自然语言处理（NLP）的模型，由OpenAI开发。GPT的目标是理解和生成人类的自然语言，通过在大量文本数据上进行预训练，学习语言的各种模式和知识。
+4. **ChatGPT**: 是基于GPT模型构建的聊天机器人，能够生成文本，回答问题和进行自然语言对话。它是GPT模型的一个具体应用实例，用于实现对话任务。除了 GPT 还有其他的很多优秀的模型，如 Google 的 Genmini，Meta 开源的 Llama 等等。
+5. **AIGC**（AI Generated Content）: 是指利用AI技术自动生成的内容，例如文本、图像、音乐等。这是一种应用AI技术生成新内容的方法，可以看作是AI在创意产业中的应用。
+6. **LangChain** : 是一个AI 开发框架，专注于构建由语言模型驱动的应用程序。它提供了一系列的组件和用例特定链，以帮助开发者创建聊天机器人、智能问答工具、摘要服务等应用程序。LangChain 可以与大型语言模型（如 GPT-3）结合使用，通过提供 Prompt templates、LLMs、Agents 和 Memory 等模块化的抽象组件，来构建高级的 AI 应用
+7. **Ollama** 是一个开源的大型语言模型服务工具，它允许用户快速在本地运行大语言模型（如 Llama 3）。Ollama 旨在简化 AI 模型的开发和使用过程，使得无论是 AI 专业人士还是新手都能轻松地使用和开发 AI 应用。Ollama 支持多种主流模型，并且提供了与 OpenAI API 兼容的框架，让开发者可以更容易地将现有应用程序与 Ollama 相连接
+8. **AGI**（Artificial General Intelligence）: 是指能够执行任何人类智能任务的机器智能，是一种理论上的AI形式，目前还未实现。AGI与目前普遍存在的专用或窄AI（ANI）不同，后者只能在特定任务上表现出智能。
+
+这些概念和实体之间的关系可以概括为：<br>AI是一个广泛的领域，NLP 是 AI 的一个子集，专注于语言处理；GPT和ChatGPT是NLP中的具体技术和应用；AIGC代表了AI在内容创作方面的应用；
+LangChain 和 Ollama 简化与了 AI 模型的使用，可以理解成 LangChain 即将成为使用 AI 模型应用的标准框架，Ollama 则主要是为了简化 LLM 使用的工具，它没有 LangChain 提供的 AI 工具全面。
+AGI是一个尚未实现的AI研究目标；LLM是实现GPT和ChatGPT等技术的大型语言模型。
 
 AI 后续发展，可能会有以下几个大的方向：
 
@@ -78,6 +94,26 @@ AI 后续发展，可能会有以下几个大的方向：
 ### 私有可部署小型 AI
 现在比较多的人希望能出一个类似于私人助理的 `AI`，类似于`小爱同学`，或者 `Siri`，在手机或电脑上就能独立运行。将`AI`做小，做精细化，是目前`AI`比较大的一个
 难题，因为`AI`目前的发展上看，需要的资源还是非常庞大的，尽管部分`AI`大模型能运行在个人电脑上，但是效果非常差。可能性可以看这篇文章：[ai手机-本地部署大模型](/blog/ai手机-本地部署大模型)
+
+## `AI` 认知入门
+
+如果你从来没有了解过AI 的相关东西，对`AI`的大部分术语与基础都不太了解，建议你先看看这个：
+[通往 AGI 之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
+
+这个网上收集了很多`AI`的相关资料与知识，适合绝大部分人`AI`入门，里面包含的东西也非常的多，看完之后对`AI`就有一个大概的印象了，这样对入门 `AIGC` 开发
+打下了基础，方便自己转入`AI`开发。
+
+需要指出的是这份资料目前也只是让你认识 `AI`，里面的东西太多了，我还是得强调一个问题，现阶段，大而全就就意味着不是很精，目前这份资料的每个领域还不是很系统化，
+也不是很深入，但是作为入门`AI`的资料还是非常合格的。
+
+作为开发者，我还建议你看看微软的这两篇 AI 入门文章，里面不仅有认知课程，还有使用 OpenAI 操作的经验，不过这对刚入门的同学来说可能有点难，不太懂，但是光看文章的话。
+就能收获不少：<br>
+AIGC： [Generative-Ai-For-Beginners](https://github.com/microsoft/generative-ai-for-beginners/blob/main/01-introduction-to-genai/translations/cn/README.md) <br>
+AI: [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) <br>
+
+
+第一个主要是针对 AIGC 的，第二个是 AI 相关的，如果想入门 AI 基础建设的，卷算法的，可以看。
+
 
 ## 如何入门
 
@@ -128,24 +164,6 @@ AIGC开发更加强调模型的创造性和生成能力，能够生成新颖、�
 首先安全这不必多少，必不可少。对抗也是，比如如何识别图片是`AI`生成的，如何识别文章，或者论文是`AI`生成的。监管就更不用说，如何让`AI`原理暴力，政治等，
 这些都需要一些非常实际的需求。
 
-## `AI` 认知入门
-如果你从来没有了解过AI 的相关东西，对`AI`的大部分术语与基础都不太了解，建议你先看看这个：
-[通往 AGI 之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)
-
-这个网上收集了很多`AI`的相关资料与知识，适合绝大部分人`AI`入门，里面包含的东西也非常的多，看完之后对`AI`就有一个大概的印象了，这样对入门 `AIGC` 开发
-打下了基础，方便自己转入`AI`开发。
-
-需要指出的是这份资料目前也只是让你认识 `AI`，里面的东西太多了，我还是得强调一个问题，现阶段，大而全就就意味着不是很精，目前这份资料的每个领域还不是很系统化，
-也不是很深入，但是作为入门`AI`的资料还是非常合格的。
-
-作为开发者，我还建议你看看微软的这两篇 AI 入门文章，里面不仅有认知课程，还有使用 OpenAI 操作的经验，不过这对刚入门的同学来说可能有点难，不太懂，但是光看文章的话。
-就能收获不少：<br>
-AIGC： [Generative-Ai-For-Beginners](https://github.com/microsoft/generative-ai-for-beginners/blob/main/01-introduction-to-genai/translations/cn/README.md) <br>
-AI: [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) <br>
-
-
-第一个主要是针对 AIGC 的，第二个是 AI 相关的，如果想入门 AI 基础建设的，卷算法的，可以看。
-
 ## AIGC 基础技术
 `AIGC` 由于领域与岗位不同，需要掌握的技术也不尽相同，这里说一下一些我认为作为一个普通的 AIGC 开发者，应该掌握的常规基础知识。
 ### Python 编程语言
@@ -187,11 +205,9 @@ Python 是`AIGC`领域中最常用的编程语言，具有丰富的库和工具�
 在`AIGC`开发过程中，需要考虑到伦理和法律方面的问题，如数据隐私、版权问题、虚假信息等。我们用的大模型，或者某个`AI`项目是否是可以商用的，用的数据，是否是合法的。
 或者是否会产生黄暴内容等等，这些都是需要相关的技术支撑。
 
-## 入门开发实践
-上面的基础技术掌握之后，我们可以先入门一个比较简单的领域，尝试一下 AIGC 的魅力。目前最简单，且可用，又最能提升成就感的`AI`领域，就是AI 绘画，让你不会从
-《入门到精通》变成《入门到放弃》。<br>
+## 学习路线
 
-`AI` 绘画入门，可以看我这边文章：[AI绘画入门](/blog/开发者-ai-绘画入门)
+![img_1.png](img_1.png)
 
 
 ## 本文总结
