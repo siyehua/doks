@@ -30,12 +30,22 @@
 
 [[main]]
   name = "基础教程"
-  url = "/blog/aigc"
+  url = "/aigc"
+  weight = 10
+
+[[main]]
+  name = "LLM 教程"
+  url = "/llm"
+  weight = 10
+
+[[main]]
+  name = "绘画教程"
+  url = "/draw"
   weight = 10
 
 [[main]]
   name = "项目实战"
-  url = "/blog/ainews/"
+  url = "/projects"
   weight = 30
 
 

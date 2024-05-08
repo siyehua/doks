@@ -86,7 +86,7 @@ adb install termux-app_v0.118.0+github-debug_arm64-v8a.apk
 由于这篇文章主要是讲如何部署大模型，这里就不展开对这个工具地安装与使用了，有一个关键点的设置提一下：<br>
 一定要开启：`开发者选项里面开启USB调试（安全设置—允许通过USB调试修改权限或模拟点击)`, 如果没有设置，那就只能看，不能模拟点击与输入。<br>
 
-![电脑连接手机](电脑连接手机%201.png)<br>
+![电脑连接手机](电脑连接手机 1.png)<br>
 
 双击连接即可
 
@@ -141,7 +141,7 @@ proot-distro login debian
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-![安装ollama](安装ollama%20中.png)<br>
+![安装ollama](安装ollama 中.png)<br>
 
 最后检查一下 ollama 是否安装成功：
 
@@ -187,7 +187,7 @@ ollama run gemma:2b
 ollama 能跑的大模型有很多，详情请看：[ollama](https://ollama.com/library)<br>
 
 
-![安装llma2](下载%20llma2.png)<br>
+![安装llma2](下载 llma2.png)<br>
 
 可以看到 gemma 正在下载中，注意：`ollama` 如果没有启动，这一步是无法进行的
 

@@ -5,7 +5,7 @@ summary: "这篇文章讲解一下使用原始的 GPU 服务器应该如何搭�
 date: 2024-03-15T19:07:37+08:00
 lastmod: 2024-03-16T19:07:37+08:00
 draft: false
-weight: 4
+weight: 101
 categories: []
 tags: []
 contributors: []

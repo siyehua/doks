@@ -6,7 +6,7 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/blog/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}/aigc" role="button">AIGC Developer 教程</a>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}/aigc" role="button">AIGC Developer 教程</a>
       {{ .Content }}
     </div>
   </div>
@@ -25,19 +25,19 @@
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
           <h2 class="h4">AIGC Developer 入门开发</h2>
-          <a href="/blog/普通开发者应该如何入门-aigc-开发/"><p>普通 Developer 入门<code>AIGC Developer</code> 路线 </p></a>
+          <a href="/aigc/普通开发者应该如何入门-aigc-开发/"><p>普通 Developer 入门<code>AIGC Developer</code> 路线 </p></a>
         </div>
         <div class="col-lg-5">
           <h2 class="h4">GPU 服务环境搭建</h2>
-          <a href="/blog/一文读懂-ai-项目环境基础知识/"><p>一文读懂 AI 项目环境基础知识</p></a>
+          <a href="/aigc/一文读懂-ai-项目环境基础知识/"><p>一文读懂 AI 项目环境基础知识</p></a>
         </div>
         <div class="col-lg-5">
           <h2 class="h4">手机部署大模型</h2>
-          <a href="/blog/ai手机-本地部署大模型/"><p>让本地运行大模型变得可能</p></a>
+          <a href="/projects/ai手机-本地部署大模型/"><p>让本地运行大模型变得可能</p></a>
         </div>
         <div class="col-lg-5">
           <h2 class="h4">更多教程</h2>
-          <a href="/blog/aigc/"><p>AIGC Developer 入门到精通</p></a>
+          <a href="/aigc/"><p>AIGC Developer 入门到精通</p></a>
         </div>
       </div>
     </div>
