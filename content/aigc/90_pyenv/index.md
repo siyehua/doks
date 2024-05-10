@@ -5,7 +5,7 @@ summary: "开发这必须要了解的环境基础知识"
 date: 2024-04-08T19:52:18+08:00
 lastmod: 2024-04-08T19:52:18+08:00
 draft: false
-weight: 100
+weight: 90
 categories: ["显卡", "驱动", "CUDA", "PyTorch"]
 tags: ["显卡", "驱动", "CUDA", "PyTorch"]
 contributors: []
