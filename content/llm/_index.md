@@ -13,9 +13,6 @@ pinned: false
 homepage: false
 ---
 
-
-## LLM 入门教程
-
 ### 入门
 * [认知：普通开发者应该如何入门 AIGC 开发](/aigc/普通开发者应该如何入门-aigc-开发)
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
