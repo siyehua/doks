@@ -1,11 +1,11 @@
 ---
-title: "GPU云服务器安装StableDiffusion"
+title: "3. GPU云服务器安装StableDiffusion"
 description: "GPU,AI,AI绘画,服务器"
 summary: "这篇文章讲解一下使用原始的 GPU 服务器应该如何搭建 Stable Diffusion"
 date: 2024-03-15T19:07:37+08:00
-lastmod: 2024-03-16T19:07:37+08:00
+lastmod: 2024-03-15T19:07:37+08:00
 draft: false
-weight: 89
+weight: 3
 categories: []
 tags: []
 contributors: []

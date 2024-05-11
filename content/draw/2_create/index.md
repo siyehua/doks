@@ -1,11 +1,11 @@
 ---
-title: "Stable Diffusion 使用方式"
+title: "2. Stable Diffusion 使用方式"
 description: "GPU,AI,AI绘画,在线生图"
 summary: "限于资源，很多人没法直接使用 Stable Diffusion，这里介绍一些常规的时候方式"
 date: 2024-03-15T19:07:37+08:00
 lastmod: 2024-03-15T19:07:37+08:00
 draft: false
-weight: 90
+weight: 2
 categories: []
 tags: []
 contributors: []

@@ -66,4 +66,12 @@
 			</div>
 		{{ end }}
 	</div>
+
+<ul>
+  {{ range sort (where .Site.RegularPages "Section" "eq" .Section) "Params.weight" "desc" }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
 {{ end }}

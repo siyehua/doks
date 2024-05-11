@@ -13,6 +13,9 @@ pinned: false
 homepage: false
 ---
 
+<div style="text-align: left;">
+
+
 ### 入门
 * [认知：普通开发者应该如何入门 AIGC 开发](/aigc/普通开发者应该如何入门-aigc-开发)
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
@@ -57,3 +60,5 @@ https://www.bilibili.com/read/cv31555330/
 https://github.com/ninehills/blog/issues/97
 
 https://juejin.cn/post/7346079044376625188
+
+</div>

@@ -11,11 +11,6 @@ tags: []
 contributors: []
 pinned: false
 homepage: false
-seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
 ---
 
 目前手机厂商都在押注 AI 手机，国内的手机厂商，每次发布会必定会带上 `AI` 两个字, 认为这是下一个风口。最新新闻：[消息称苹果选择百度为国行 iPhone 16 等设备提供 AI 功能，也曾和阿里洽谈](https://www.ithome.com/0/757/875.htm)<br>
