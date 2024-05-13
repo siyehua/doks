@@ -5,7 +5,7 @@ summary: "AIGC 学习指路"
 date: 2024-03-15T19:07:37+08:00
 lastmod: 2024-03-15T19:07:37+08:00
 draft: false
-weight: 99
+weight: 1
 categories: []
 tags: []
 contributors: []
@@ -93,7 +93,7 @@ AI 后续发展，可能会有以下几个大的方向：
 
 ### 私有可部署小型 AI
 现在比较多的人希望能出一个类似于私人助理的 `AI`，类似于`小爱同学`，或者 `Siri`，在手机或电脑上就能独立运行。将`AI`做小，做精细化，是目前`AI`比较大的一个
-难题，因为`AI`目前的发展上看，需要的资源还是非常庞大的，尽管部分`AI`大模型能运行在个人电脑上，但是效果非常差。可能性可以看这篇文章：[ai手机-本地部署大模型](/projects/ai手机-本地部署大模型)
+难题，因为`AI`目前的发展上看，需要的资源还是非常庞大的，尽管部分`AI`大模型能运行在个人电脑上，但是效果非常差。可能性可以看这篇文章：[ai手机-本地部署大模型](/blog/ai手机-本地部署大模型)
 
 ## `AI` 认知入门
 
@@ -214,7 +214,7 @@ Python 是`AIGC`领域中最常用的编程语言，具有丰富的库和工具�
 1. 了解：先通过这篇文章，以及文章中的资料，以及网上的其他文章等等，先对 AI 有一个大概的了解。
 2. 使用：如果你还没有尝试过对话模型： ChatGPT, Genmini, 或者是文心一言，豆包，Kimi, 或者是生成图片：liblib，吐司，妙鸭等等，那就赶紧去尝试一下，了解一下 AI 目前的发展，优缺点等等，再总结一下目前的 AIGC 的方方向，让自己心中有数。
 3. 基础：按照这边文章的推荐基础，可以先学习 Prompt, 很多人可能都没有系统的学习过 Prompt，就看别人发的，然后复制一遍，为什么这些写，这些写有什么用，一无所知。再学习 Python，Linux 基础知识，以及会的可以跳过，但如果你连 Python 怎么定义变量，调用方法都不会，Linux 怎么下载文件，`cd` 命令行是什么意思都不知，那就需要掌握这些基础知识。
-4. 入门尝试：尝试自己部署一个大模型：[手机部署大模型](/projects/ai手机-本地部署大模型)， 或者 [AI绘画入门](/draw/开发者-ai-绘画入门)
+4. 入门尝试：尝试自己部署一个大模型：[手机部署大模型](/blog/ai手机-本地部署大模型)， 或者 [AI绘画入门](/blog/开发者-ai-绘画入门)
 5. 更近一步：了解常用的 AI 相关工具或应用： LangChain, HuggingFace, Ollama ，或者了解绘画的 WebUI, ComfyUI, Midjourney, Stable Diffusion 等等
 6. 深入学习：到了这一步，你对需要转那个 AIGC 方向有一个大概的方向了，然后朝着这个方向去深入学习即可
 
@@ -236,7 +236,7 @@ Python 是`AIGC`领域中最常用的编程语言，具有丰富的库和工具�
 1. 先了解一些`AI`的背景与方向
 2. 再了解一些 `AIGC` 的领域与方向，现状与技术，略读并尝试[通往 AGI 之路](https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e)中的例子与自己感兴趣的方向
 3. 掌握 `AIGC` 基础开发知识
-4. 根据自己当前的职业与技能，找一个自己感兴趣的领域入门，如：[AI绘画入门](/draw/开发者-ai-绘画入门)，或者：[手机部署大模型](/projects/ai手机-本地部署大模型) 等等
+4. 根据自己当前的职业与技能，找一个自己感兴趣的领域入门，如：[AI绘画入门](/blog/开发者-ai-绘画入门)，或者：[手机部署大模型](/blog/ai手机-本地部署大模型) 等等
 
 等基本了解差不多了，再根据`AI`发展的趋势，以及自己的职业规划，选择一个合适的方向，去深入研究与学习，这样在未来的`AI`浪潮中，自己就不会被`AI`所淘汰了。
 
@@ -244,10 +244,10 @@ Python 是`AIGC`领域中最常用的编程语言，具有丰富的库和工具�
 ## LLM 入门教程
 
 ### 入门
-* [认知：普通开发者应该如何入门 AIGC 开发](/aigc/普通开发者应该如何入门-aigc-开发)
+* [认知：普通开发者应该如何入门 AIGC 开发](/blog/普通开发者应该如何入门-aigc-开发)
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
 * [Prompt: 面向开发者的 Prompt 工程 - AI 时代，必须掌握的 Prompt](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
-* [学会使用LLM 接口 - OpenAPI,LLM API](/llm/LLM-API-使用)
+* [学会使用LLM 接口 - OpenAPI,LLM API](/blog/LLM-API-使用)
 ### 基础
 基础篇主要是为了夯实基础，是对入门的一个补充，作为 AIGC 开发者，需要对底层技术有一定的了解
 
@@ -260,8 +260,8 @@ Python 是`AIGC`领域中最常用的编程语言，具有丰富的库和工具�
 ### 应用
 应用是 AIGC 的重点，课程比较多：
 
-* [云 LLM: 使用OpenAI 部署自己的 GPT](/llm/使用-OpenAI-部署自己的-GPT)
-* [本地 LLM: 一文了解 Ollama](/llm/使用-OpenAI-部署自己的-GPT)
+* [云 LLM: 使用OpenAI 部署自己的 GPT](/blog/使用-OpenAI-部署自己的-GPT)
+* [本地 LLM: 一文了解 Ollama](/blog/使用-OpenAI-部署自己的-GPT)
 * [本地 LLM: Ollama 手机部署大模型]()
 * [LLM 图片: 本地 LLM 实现图片问答]()
 * [Huggingface： Huggingface 入门 ]()

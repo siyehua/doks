@@ -5,7 +5,7 @@ summary: "基于LLM构建知识库"
 date: 2024-04-18T15:46:04+08:00
 lastmod: 2024-04-18T15:46:04+08:00
 draft: false
-weight: 398
+weight: 2
 categories: []
 tags: ["LLM", "问答系统", "知识库"]
 contributors: []

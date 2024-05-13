@@ -1,11 +1,11 @@
 ---
 title: "LLM 系列教程"
 description: "LLM,GPU,AI,AI绘画,AIGC,Developer"
-summary: "LLM"
+summary: "LLM 学习路线总结"
 date: 2024-03-15T19:07:37+08:00
 lastmod: 2024-03-15T19:07:37+08:00
 draft: false
-weight: 90
+weight: 101
 categories: []
 tags: []
 contributors: []
@@ -21,6 +21,8 @@ homepage: false
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
 * [Prompt: 面向开发者的 Prompt 工程 - AI 时代，必须掌握的 Prompt](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
 * [学会使用LLM 接口 - OpenAPI,LLM API](/llm/LLM-API-使用)
+
+
 ### 基础
 基础篇主要是为了夯实基础，是对入门的一个补充，作为 AIGC 开发者，需要对底层技术有一定的了解
 

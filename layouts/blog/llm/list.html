@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1 class="title-centered">{{ .Title }}</h1>
+{{ .Content }}
+<ul>
+  {{ range sort (where .Site.RegularPages "Section" "eq" .Section) "Params.weight" "desc" }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }} 12323</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

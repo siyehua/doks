@@ -5,7 +5,7 @@ summary: "大模型一般都是部署在服务器上的，对 GPU 的要求非�
 date: 2024-03-15T19:07:37+08:00
 lastmod: 2024-04-08T19:48:22+08:00
 draft: false
-weight: 77
+weight: 23
 categories: []
 tags: []
 contributors: []

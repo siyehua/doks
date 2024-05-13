@@ -5,7 +5,7 @@ summary: "这些技术一般是新出来的，能解决 AIGC 技术在落地的�
 date: 2024-03-18T15:23:09+08:00
 lastmod: 2024-03-18T15:23:09+08:00
 draft: false
-weight: 200
+weight: 103
 categories: []
 tags: []
 contributors: []

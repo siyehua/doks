@@ -5,7 +5,7 @@ summary: "美学大模型Playground 评测"
 date: 2024-03-18T16:29:23+08:00
 lastmod: 2024-03-18T16:29:23+08:00
 draft: false
-weight: 400
+weight: 1
 categories: []
 tags: []
 contributors: []
