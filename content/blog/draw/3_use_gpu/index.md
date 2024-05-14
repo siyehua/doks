@@ -173,8 +173,8 @@ cd stable-diffusion-webui
 
 执行:
 
-```
-shellsh webui.sh
+```shell
+sh webui.sh
 ```
 
 
@@ -256,3 +256,30 @@ conda activate py310
 
 ![运行结果](result_05.png)
 
+## 下载其他大模型
+
+一般来是，直接通过 wget 下载即可，比如比较出名的 [麦橘 v7](https://civitai.com/models/43331?modelVersionId=176425) 大模型
+
+打开链接，右键，`复制链接地址`:
+![img.png](img.png)
+
+
+然后在服务端的 shell 中输入：
+
+```shell
+wget https://civitai.com/api/download/models/176425
+```
+
+下载后的名字是 `176424`， 重命名：
+
+```shell
+mv 176425 majicMIXv7.safetensors
+```
+
+再复制到 sd 对应的目录下：
+
+```shell
+cp majicMIXv7.safetensors stable-diffusion-webui/models/Stable-diffusion/
+```
+
+这样就能使用新的大模型 `麦橘v7` 了
