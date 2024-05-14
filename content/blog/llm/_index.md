@@ -17,10 +17,10 @@ homepage: false
 
 
 ### 入门
-* [认知：普通开发者应该如何入门 AIGC 开发](/aigc/普通开发者应该如何入门-aigc-开发)
+* [认知：普通开发者应该如何入门 AIGC 开发](/blog/普通开发者应该如何入门-aigc-开发)
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
 * [Prompt: 面向开发者的 Prompt 工程 - AI 时代，必须掌握的 Prompt](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
-* [学会使用LLM 接口 - OpenAPI,LLM API](/llm/LLM-API-使用)
+* [学会使用LLM 接口 - OpenAPI,LLM API](/blog/LLM-API-使用)
 
 
 ### 基础
@@ -35,10 +35,10 @@ homepage: false
 ### 应用
 应用是 AIGC 的重点，课程比较多：
 
-* [云 LLM: 使用OpenAI 部署自己的 GPT](/llm/使用-OpenAI-部署自己的-GPT)
-* [本地 LLM: 一文了解 Ollama](/llm/使用-OpenAI-部署自己的-GPT)
-* [本地 LLM: Ollama 手机部署大模型]()
-* [LLM 图片: 本地 LLM 实现图片问答]()
+* [云 LLM: 使用OpenAI 部署自己的 GPT](/blog/使用-OpenAI-部署自己的-GPT)
+* [本地 LLM: 一文了解 Ollama](/blog/使用-OpenAI-部署自己的-GPT)
+* [本地 LLM: Ollama 手机部署大模型](/blog/AI手机-本地部署大模型)
+* [LLM 图片: 本地 LLM 实现图片问答](/blog/本地大模型LLM对话生图)
 * [Huggingface： Huggingface 入门 ]()
 * [LangChain：LangChain 详解]()
 
