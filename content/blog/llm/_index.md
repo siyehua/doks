@@ -20,7 +20,7 @@ homepage: false
 * [认知：普通开发者应该如何入门 AIGC 开发](/blog/普通开发者应该如何入门-aigc-开发)
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
 * [Prompt: 面向开发者的 Prompt 工程 - AI 时代，必须掌握的 Prompt](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
-* [Prompt: 学习笔记 - 面向开发者的 ChatGPT 提示工程 ](/blog/ChatGPT-提示工程学习笔记)
+* [Prompt: 学习笔记 - 面向开发者的 ChatGPT 提示工程 ](/blog/chatgpt-提示工程学习笔记)
 * [学会使用LLM 接口 - OpenAPI,LLM API](/blog/LLM-API-使用)
 
 
