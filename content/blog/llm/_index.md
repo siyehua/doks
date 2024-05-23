@@ -21,8 +21,6 @@ homepage: false
 * [基础：大语言模型综述（比较复杂，但是能让你系统的了解 LLM）](https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf)
 * [Prompt: 面向开发者的 Prompt 工程 - AI 时代，必须掌握的 Prompt](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
 * [Prompt: 学习笔记 - 面向开发者的 ChatGPT 提示工程 ](/blog/chatgpt-提示工程学习笔记)
-* [学会使用LLM 接口 - OpenAPI,LLM API](/blog/LLM-API-使用)
-
 
 ### 基础
 基础篇主要是为了夯实基础，是对入门的一个补充，作为 AIGC 开发者，需要对底层技术有一定的了解
@@ -36,7 +34,7 @@ homepage: false
 ### 应用
 应用是 AIGC 的重点，课程比较多：
 
-* [云 LLM: 使用OpenAI 部署自己的 GPT](/blog/使用-OpenAI-部署自己的-GPT)
+* [云 LLM: 使用OpenAI 部署自己的 GPT](/blog/使用-openai-部署自己的-gpt)
 * [本地 LLM: 一文了解 Ollama](/blog/使用-OpenAI-部署自己的-GPT)
 * [本地 LLM: Ollama 手机部署大模型](/blog/ai手机-本地部署大模型)
 * [LLM 图片: 本地 LLM 实现图片问答](/blog/本地大模型llm对话生图)
@@ -55,6 +53,8 @@ homepage: false
 
 
 ## 参考资料
+
+https://huggingface.co/learn
 
 https://github.com/datawhalechina/llm-cookbook?tab=readme-ov-file
 
