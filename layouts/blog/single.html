@@ -1,69 +1,109 @@
 {{ define "main" }}
-	<div class="row flex-xl-nowrap">
-		{{ if (in site.Params.doks.sectionNav .Section) -}}
-		<div class="col-lg-5 col-xl-4 docs-sidebar{{ if ne site.Params.doks.navbarSticky true }} docs-sidebar-top{{ end }}{{ if site.Params.doks.headerBar }} docs-sidebar-offset{{ end }} d-none d-lg-block">
-			{{ partial "sidebar/section-menu.html" . }}
-		</div>
-		{{ end -}}
-		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
-			<div class="col container-fw d-lg-flex flex-lg-row justify-content-center mx-auto">
-		{{ end }}
-		{{ if ne .Params.toc false -}}
-		<nav class="docs-toc{{ if ne site.Params.doks.navbarSticky true }} docs-toc-top{{ end }}{{ if site.Params.doks.headerBar }} docs-toc-offset{{ end }} d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-			{{ partial "sidebar/docs-toc-desktop.html" . }}
-		</nav>
-		{{ end -}}
-		{{ if .Params.toc -}}
-		<main class="docs-content col-lg-11 col-xl-9">
-		{{ else -}}
-		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
-		{{ end -}}
-			{{ if site.Params.doks.breadcrumbTrail -}}
-				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb">
-						{{ partial "main/breadcrumb" . -}}
-						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+<div class="row flex-xl-nowrap">
+  {{ if (in site.Params.doks.sectionNav .Section) -}}
+  <div
+    class="col-lg-5 col-xl-4 docs-sidebar{{ if ne site.Params.doks.navbarSticky true }} docs-sidebar-top{{ end }}{{ if site.Params.doks.headerBar }} docs-sidebar-offset{{ end }} d-none d-lg-block">
+    {{ partial "sidebar/section-menu.html" . }}
+  </div>
+  {{ end -}}
+  {{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
+  <div class="col container-fw d-lg-flex flex-lg-row justify-content-center mx-auto">
+    {{ end }}
+    {{ if ne .Params.toc false -}}
+    <nav
+      class="docs-toc{{ if ne site.Params.doks.navbarSticky true }} docs-toc-top{{ end }}{{ if site.Params.doks.headerBar }} docs-toc-offset{{ end }} d-none d-xl-block col-xl-3"
+      aria-label="Secondary navigation">
+      {{ partial "sidebar/docs-toc-desktop.html" . }}
+    </nav>
+    {{ end -}}
+    {{ if .Params.toc -}}
+    <main class="docs-content col-lg-11 col-xl-9">
+      {{ else -}}
+      <main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+        {{ end -}}
+        {{ if site.Params.doks.breadcrumbTrail -}}
+        <!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            {{ partial "main/breadcrumb" . -}}
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
             {{ if ne .Params.toc false -}}
             <nav class="my-3" aria-label="Secondary navigation">
               {{ partial "sidebar/docs-toc-mobile.html" . }}
             </nav>
             {{ end -}}
-					</ol>
-				</nav>
-			{{ end }}
-			<h1>{{ .Title }}</h1>
-			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
-			{{ if ne .Params.toc false -}}
-			<nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
-				{{ partial "sidebar/docs-toc-mobile.html" . }}
-			</nav>
-			{{ end -}}
+          </ol>
+        </nav>
+        {{ end }}
+        <h1>{{ .Title }}</h1>
+        <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
+        {{ if ne .Params.toc false -}}
+        <nav class="toc-mobile d-xl-none" aria-label="Quaternary navigation">
+          {{ partial "sidebar/docs-toc-mobile.html" . }}
+        </nav>
+        {{ end -}}
 
-			{{ if site.Params.doks.headlineHash -}}
-				{{ partial "main/headline-hash" .Content }}
-			{{ else -}}
-				{{ .Content }}
-			{{ end -}}
-			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
-				{{ if site.Params.doks.lastMod -}}
-					{{ partial "main/last-modified.html" . }}
-				{{ end -}}
-				{{ if site.Params.doks.editPage -}}
-					{{ partial "main/edit-page.html" . }}
-				{{ end -}}
-			</div>
-			{{ partial "main/docs-navigation.html" . }}
-			<!--
-			{{ if not .Site.Params.options.collapsibleSidebar -}}
-				{{ partial "main/docs-navigation.html" . }}
-			{{ else -}}
-				<div class="my-n3"></div>
-			{{ end -}}
-			-->
-		</main>
-		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
-			</div>
-		{{ end }}
-	</div>
+        {{ if site.Params.doks.headlineHash -}}
+        {{ partial "main/headline-hash" .Content }}
+        {{ else -}}
+        {{ .Content }}
+        {{ end -}}
+
+        <p data-tool="mdnice编辑器"
+           style="margin-bottom: 0px;padding-top: 8px;padding-bottom: 8px;outline: 0px;font-family: Optima, &quot;Microsoft YaHei&quot;, PingFangSC-regular, serif;font-size: 16px;letter-spacing: 0em;text-indent: 0em;text-wrap: wrap;background-color: rgb(255, 255, 255);color: rgb(58, 58, 58);line-height: 1.8em;text-align: center;user-select: text !important;">
+          <span
+            style="outline: 0px;font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 15px;letter-spacing: 0.544px;caret-color: rgb(51, 51, 51);color: rgb(0, 0, 0);word-spacing: 0em;user-select: text !important;">#&nbsp;</span><span
+          style="outline: 0px;font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 15px;letter-spacing: 0.544px;caret-color: rgb(51, 51, 51);color: rgb(0, 0, 0);word-spacing: 0em;font-weight: bolder;line-height: 24px;user-select: text !important;"><em
+          style="outline: 0px;line-height: 24px;user-select: text !important;"><span
+          style="outline: 0px;color: rgb(255, 255, 255);text-shadow: rgb(0, 0, 0) 1px 1px, rgb(0, 0, 0) 1px -1px, rgb(0, 0, 0) -1px 1px, rgb(0, 0, 0) -1px -1px, rgb(0, 0, 0) 0px 1.4px, rgb(0, 0, 0) 0px -1.4px, rgb(0, 0, 0) -1.4px 0px, rgb(0, 0, 0) 1.4px 0px, rgb(248, 202, 44) 0px 3px, rgb(0, 0, 0) 1px 4px, rgb(0, 0, 0) 1px 2px, rgb(0, 0, 0) -1px 4px, rgb(0, 0, 0) -1px 2px, rgb(0, 0, 0) 0px 4.4px, rgb(0, 0, 0) 0px 1.6px, rgb(0, 0, 0) -1.4px 3px, rgb(0, 0, 0) 1.4px 3px;line-height: 24px;user-select: text !important;">
+          &nbsp;学习LLM &amp; 讨论AIGC&nbsp;&nbsp;</span></em></span><span
+          style="outline: 0px;font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;font-size: 15px;letter-spacing: 0.544px;caret-color: rgb(51, 51, 51);color: rgb(0, 0, 0);word-spacing: 0em;user-select: text !important;">#</span><br
+          style="outline: 0px;user-select: text !important;"></p>
+        {{ $image := resources.Get "/privacy_code.png" }}
+        <p
+          style="margin-bottom: 0px;outline: 0px;color: rgb(0, 0, 0);font-size: 16px;letter-spacing: normal;text-wrap: wrap;font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &quot;PingFang SC&quot;, Cambria, Cochin, Georgia, Times, &quot;Times New Roman&quot;, serif;background-color: rgb(255, 255, 255);text-align: center;user-select: text !important;">
+          <img class="rich_pages wxw-img" data-galleryid="" data-imgfileid="100021427" data-ratio="1.3293768545994065"
+               data-s="300,640"
+               src="{{ $image.Permalink }}"
+               data-type="png" data-w="674"
+               style="outline: 0px;user-select: text !important;visibility: visible !important;width: 285px !important;"
+               width="285px"></p>
+        <section
+          style="margin-top: 5px;margin-bottom: 5px;outline: 0px;color: rgb(0, 0, 0);font-size: 16px;text-wrap: wrap;letter-spacing: 0.544px;font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;background-color: rgb(255, 255, 255);caret-color: rgb(51, 51, 51);text-align: center;text-size-adjust: inherit;line-height: 20px;user-select: text !important;">
+          <section
+            style="margin-top: 10px;margin-bottom: 10px;outline: 0px;font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;letter-spacing: 0.544px;text-size-adjust: inherit;line-height: 27px;user-select: text !important;">
+            <span
+              style="outline: 0px;font-size: 12px;letter-spacing: 0.54px;caret-color: rgb(0, 0, 0);font-family: mp-quote, -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;line-height: 0px;user-select: text !important;">
+              △长按或扫码备注 <b>AIGC</b></span>
+          </section>
+          <p
+            style="margin-top: 10px;outline: 0px;font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;letter-spacing: 0.544px;text-size-adjust: inherit;line-height: 27px;user-select: text !important;">
+            <span style="outline: 0px;font-size: 12px;line-height: 19px;user-select: text !important;"><span
+              style="outline: 0px;color: rgb(90, 90, 90);letter-spacing: 1px;text-align: justify;font-family: mp-quote, -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif;line-height: 19px;user-select: text !important;"><span
+              style="outline: 0px;color: rgb(0, 0, 0);font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &quot;PingFang SC&quot;, Cambria, Cochin, Georgia, Times, &quot;Times New Roman&quot;, serif;letter-spacing: normal;text-align: center;user-select: text !important;">
+              每天大模型、LLM、AIGC 技术咨询</span><span
+              style="outline: 0px;color: rgb(0, 0, 0);font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, &quot;PingFang SC&quot;, Cambria, Cochin, Georgia, Times, &quot;Times New Roman&quot;, serif;letter-spacing: normal;text-align: center;user-select: text !important;"></span><br
+              style="outline: 0px;user-select: text !important;"></span></span></p></section>
+
+        <div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+          {{ if site.Params.doks.lastMod -}}
+          {{ partial "main/last-modified.html" . }}
+          {{ end -}}
+          {{ if site.Params.doks.editPage -}}
+          {{ partial "main/edit-page.html" . }}
+          {{ end -}}
+        </div>
+        {{ partial "main/docs-navigation.html" . }}
+        <!--
+        {{ if not .Site.Params.options.collapsibleSidebar -}}
+          {{ partial "main/docs-navigation.html" . }}
+        {{ else -}}
+          <div class="my-n3"></div>
+        {{ end -}}
+        -->
+      </main>
+      {{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
+  </div>
+  {{ end }}
+</div>
 {{ end }}
