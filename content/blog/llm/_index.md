@@ -46,7 +46,7 @@ homepage: false
 
 ### 进阶
 * [Function Calling：自然语言微调 LLM]()
-* [RAG：检索增强生成 - 打造知识库1 - RAG 原理](/blog/RAG：打造知识库1)
+* [RAG：检索增强生成 - 打造知识库1 - RAG 原理](/blog/rag基础打造知识库1)
 * [RAG：检索增强生成 - 打造知识库2 - RAG 进阶]()
 * [Fine-Tuning：微调 LLM - Ollama3 中文微调]()
 * [Agent：打造自己的专属智能体]()
