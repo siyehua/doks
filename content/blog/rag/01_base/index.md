@@ -1,6 +1,6 @@
 ---
-title: "RAG：检索增强生成 - 打造知识库1 - RAG 原理"
-description: "GPU,AI,RAG,知识库,AIGC,Developer"
+title: "RAG：打造知识库1"
+description: "GPU,AI,RAG,知识库,检索增强,AIGC,Developer"
 summary: "RAG"
 date: 2025-02-27T17:55:12+08:00
 lastmod: 2025-02-27T17:55:12+08:00
