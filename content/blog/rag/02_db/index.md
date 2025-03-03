@@ -1,5 +1,5 @@
 ---
-title: "打造知识库2：向量数据库"
+title: "向量数据库：打造知识库2"
 description: "GPU,AI,RAG,知识库,向量数据库,AIGC,Developer"
 summary: "RAG"
 date: 2025-02-27T17:55:12+08:00
