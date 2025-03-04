@@ -279,6 +279,7 @@ def test_chromadb():
 `ChromaDB` 默认就是使用欧氏距离来判断查询向量与结果向量之间的距离，距离越小，相似度越高。
 
 我们稍微修改一下差距的句子，改成跟第一条一样的：`This is document1` ,就会发现 `distances` 返回的是 0， 说明这两个文本是一样的：
+
 ![img_2.png](img_2.png)
 
 当然，也可以使用余弦相似度（`cosine similarity`） 来计算：
@@ -378,3 +379,5 @@ def test_chromadb():
 详细可以看这里的文档：
 
 https://docs.trychroma.com/docs/collections/configure#configuring-chroma-collections
+
+## 嵌入模型
