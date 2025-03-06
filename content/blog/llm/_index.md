@@ -38,8 +38,8 @@ homepage: false
 * [云 LLM: 使用OpenAI 部署自己的 GPT](/blog/使用-openai-部署自己的-gpt)
 * [本地 LLM1: 一文了解 Ollama](/blog/本地大模型-一文了解-ollama)
 * [本地 LLM2: Ollama 手机部署大模型](/blog/ai手机-本地部署大模型)
-* [多模态1: 本地 LLM 实现图片问答](/blog/本地大模型llm对话生图)
-* [多模态2: 基于图片的对话模型](/blog/本地大模型llm对话生图)
+* [本地 LLM3: 多模态,实现图片问答](/blog/本地大模型llm对话生图)
+* [本地 LLM4: LLM API 调用](/blog/本地大模型-一调用API)
 * [Huggingface： Huggingface 入门 ]()
 * [LangChain：LangChain 详解]()
 
