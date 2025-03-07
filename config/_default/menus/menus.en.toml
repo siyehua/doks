@@ -40,7 +40,7 @@
 
 [[main]]
   name = "RAG 实战"
-  url = "/blog/llm"
+  url = "/blog/rag"
   weight = 11
 
 [[main]]
