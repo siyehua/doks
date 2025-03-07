@@ -35,17 +35,22 @@
 
 [[main]]
   name = "LLM 教程"
-  url = "/blog//llm"
+  url = "/blog/llm"
+  weight = 11
+
+[[main]]
+  name = "RAG 实战"
+  url = "/blog/llm"
   weight = 11
 
 [[main]]
   name = "绘画教程"
-  url = "/blog//draw"
+  url = "/blog/draw"
   weight = 12
 
 [[main]]
   name = "项目实战"
-  url = "/blog//projects"
+  url = "/blog/projects"
   weight = 30
 
 

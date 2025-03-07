@@ -260,6 +260,9 @@ data = {
 
 还有更多的 API 以及用法就不一一说了，感兴趣的同学可以自己前往官网查看：https://github.com/ollama/ollama/blob/main/docs/api.md
 
+
+多模态的转换是非常有用的，我们如果做知识库的时候，经常会遇到视频，图片等需要解析的场景，这些都需要用到多模态功能
+
 ## API 标准与其他 AI 的 API
 
 LLM 主要是有 OpenAI 引领了整个 AI 的浪潮，目前整个可以说整个 AI 界所有的开发者文档的 API，都基本跟 OpenAI 的类似。
