@@ -1,9 +1,9 @@
 ---
-title: "文本转向量：打造知识库3"
-description: "GPU,AI,RAG,知识库,向量数据库,AIGC,Developer"
+title: "文件处理：打造知识库4"
+description: "GPU,AI,RAG,知识库,向量数据库,AIGC,Embeddings"
 summary: "RAG"
-date: 2025-02-27T17:55:12+08:00
-lastmod: 2025-02-27T17:55:12+08:00
+date: 2025-03-11T14:36:28+08:00
+lastmod: 2025-03-11T14:36:28+08:00
 draft: false
 weight: 01
 categories: []
